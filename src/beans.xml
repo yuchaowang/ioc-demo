@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans>
+	<bean id='firstBean' class='ioc.FirstBean'>
+		<property name='BeanInfo'>
+			<value>I am first bean</value>
+		</property>
+		<property name='BeanMessage'>
+			<value>no message</value>
+		</property>
+	</bean>
+	<bean id='secondBean' class='ioc.SecondBean'>
+		<property name='BeanInfo'>
+			<value>naeb dnoces ma I</value>
+		</property>
+		<property name='BeanMessage'>
+			<value>mirror</value>
+		</property>
+	</bean>
+</beans>
